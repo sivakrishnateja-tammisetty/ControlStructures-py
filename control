@@ -1,0 +1,137 @@
+* CONTROL STRUCTURES IN PYTHON ====> if , if else , elif ,  range() , for loop , while loop , 
+
+
+
+
+* if statement:
+        syntax ==> if expression:
+                     statement
+
+
+
+a=6
+if a>10:
+    print("Greater than 10")
+print("None")
+
+
+a=int(input("enter a number:"))
+if a>10:
+    print("Greater than 10")
+print("Not Greater than 10")
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+  * if else statemet:
+  *syntax:
+  if expression:
+    statement
+  else:
+      statement
+
+
+
+age=int(input("Enter age:"))
+if age>=18:
+    print("You are eligible for vote.")
+else:
+    print("Not eligible for vote.")
+print("Thank you!")
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* elif statement:
+*syntax:
+  if statement:
+    statement
+  elif statement:
+    statement
+    ..........
+  else:
+    statement
+
+
+
+
+
+operand_1=int(input("Enter value:"))
+operand_2=int(input("Enter value:"))
+operator=input("Enter an operator('+','-','*','/','%':")
+if operator=='+':
+    print(operand_1+operand_2)
+elif operator=='-':
+    print(operand_1-operand_2)
+elif operator=='*':
+    print(operand_1*operand_2)
+elif operator=='/':
+    print(operand_1/operand_2)
+elif operator=='%':
+    print(operand_1%operand_2)
+else:
+    print("None")
+print("welcome")
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  * range function: to print numbers in particular range. Mostyly used in loops 
+  * syntax:
+    range(start,end,step) ===>end value is necessary,but start and step are optional.
+
+
+
+a=list(range(11))
+print(a)
+
+a=list(range(1,11))
+print(a)
+
+a=list(range(1,11,2))
+print(a)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* for loop: used to print n no.of times
+* syntax:
+for i in ramge(value):
+  statement
+
+
+
+
+l=["siva",20,1998]
+for i in l:
+    print(i)
+
+      
+for i in ["siva",20,1998]:
+    print(i)
+
+     
+     
+for i in range(10):
+    print("apple")
+    
+word="apple"
+for i in word:
+     print(i)
+
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+  * while-loop:
+  *syntax:
+       counter variable
+       while test_expression:
+         statement
+         increment/decrement
+
+
+count=1
+while count<=5:
+  print(count)
+  count=count+1
+
+
+
+
+
+  count=5
+while count>=1:
+    print(count)
+    count=count-1
+  
+  
